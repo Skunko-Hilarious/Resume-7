@@ -1,0 +1,50 @@
+html {
+    font-family:sans-serif;
+    padding:5px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+}
+/*Font sizes and modification*/
+h1{
+    font-size:2em;
+}
+h2{
+    font-size:1.5em;
+}
+/*Sections of the page*/
+main{
+    display:flex;
+}
+header{
+    background-color: #4B4453;
+    color: white;
+    padding:20px;
+}
+aside{
+    background-color: #B0A8B9;
+    width: 15%;
+    padding-left:30px;
+}
+article{
+    padding:20px;
+    padding-left:30px;
+}
+footer{
+    background-color: #4B4453;
+    color: white;
+}
+/*Classes*/
+.profile{
+    width: 300px;
+    border: solid 3px #C34A36;
+    border-radius: 50%;
+}
+.contacts{
+    width:100px;
+}
+.noBullet{
+    list-style-type: none;
+    padding:0px;
+}
