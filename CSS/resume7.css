@@ -14,18 +14,18 @@ h2{
     font-size:1.5em;
 }
 /*Sections of the page*/
-main{
-    display:flex;
-}
 header{
     background-color: #4B4453;
     color: white;
     padding:20px;
 }
+main{
+    display:flex;
+}
 aside{
     background-color: #B0A8B9;
     width: 15%;
-    padding-left:30px;
+    padding:20px;
 }
 article{
     padding:20px;
@@ -34,6 +34,10 @@ article{
 footer{
     background-color: #4B4453;
     color: white;
+    padding:20px;
+}
+footer i{
+    color: black;
 }
 /*Classes*/
 .profile{
@@ -47,4 +51,7 @@ footer{
 .noBullet{
     list-style-type: none;
     padding:0px;
+}
+.fa-instagram:hover{
+    color:red;
 }
