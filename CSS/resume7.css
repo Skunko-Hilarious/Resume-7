@@ -17,7 +17,6 @@ h2{
 header{
     background-color: #4B4453;
     color: white;
-    padding:20px;
 }
 main{
     display:flex;
@@ -34,7 +33,7 @@ article{
 footer{
     background-color: #4B4453;
     color: white;
-    padding:20px;
+    text-align: center;
 }
 footer i{
     color: black;
@@ -45,13 +44,64 @@ footer i{
     border: solid 3px #C34A36;
     border-radius: 50%;
 }
-.contacts{
-    width:100px;
-}
 .noBullet{
     list-style-type: none;
     padding:0px;
 }
-.fa-instagram:hover{
-    color:red;
+
+
+/*contact buttons*/
+.wrapper .contacts {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.wrapper .contacts:hover {
+    width: 200px;
+    background-color: white;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .contacts span {
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+.wrapper .contacts .icon i {
+    font-size: 50px;
+    line-height: 80px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .contacts .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .contacts:nth-child(1):hover i{
+    color:#1877f2;
+}
+.wrapper .contacts:nth-child(2):hover i{
+    color: #171515;
+}
+.wrapper .contacts:nth-child(3):hover i{
+    color: #c32aa3;
+}
+.wrapper .contacts:nth-child(1):hover span{
+    color:#1877f2;
+}
+.wrapper .contacts:nth-child(2):hover span{
+    color: #171515;
+}
+.wrapper .contacts:nth-child(3):hover span{
+    color: #c32aa3;
 }
