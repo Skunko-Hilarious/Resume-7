@@ -16,6 +16,8 @@ h2{
 /*Sections of the page*/
 header{
     background-color: #4B4453;
+    background-image: url("../Images/5dots.png");
+    background-repeat: repeat;
     color: white;
 }
 main{
@@ -41,12 +43,15 @@ footer i{
 /*Classes*/
 .profile{
     width: 300px;
-    border: solid 3px #C34A36;
+    border: solid 3px #c93015;
     border-radius: 50%;
 }
 .noBullet{
     list-style-type: none;
     padding:0px;
+}
+.picture{
+    width:100%;
 }
 
 
