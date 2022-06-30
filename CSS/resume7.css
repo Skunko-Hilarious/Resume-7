@@ -14,6 +14,11 @@ h2{
     font-size:1.5em;
 }
 /*Sections of the page*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
 header{
     background-color: #4B4453;
     background-image: url("../Images/5dots.png");
@@ -48,16 +53,36 @@ footer i{
 }
 .noBullet{
     list-style-type: none;
-    padding:0px;
+    padding:0px; /*Message 1*/
+    width:60px;
+    height:60px;
 }
 .picture{
-    width:100%;
+    max-width:100%;
 }
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+#top ul li{
+    list-style: none;
+}
+#top ul li a{
+    text-decoration: none;
+
+}
+
 
 
 /*contact buttons*/
+.main-content{
+    display: grid;
+    grid-template-columns: auto auto auto auto;/*Message 4*/
+    font-size:30px;
+}
 .wrapper .contacts {
-    display: inline-block;
+    line-height: 60px;
+    display: inline-block;/*Message 3*/
     width: 80px;
     height: 80px;
     margin: 0 10px;
@@ -76,7 +101,8 @@ footer i{
 .wrapper .contacts span {
     font-size: 20px;
     height: 60px;
-    line-height: 60px;
+    /*line-height: 60px; *//*Message 2*/
+    margin-left: 10px;
     font-weight: 500;
     transition: all 0.3s ease-out;
 }
@@ -109,4 +135,21 @@ footer i{
 }
 .wrapper .contacts:nth-child(3):hover span{
     color: #c32aa3;
+}
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .main-contnet{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
 }
